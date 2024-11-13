@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ellis's Coding Practice</title>
+</head>
+<body>
+    <header>
+        <h1>Ellis's Coding Practice</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+                <li><a href="python.html">Python</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <h1>how i set up the navigation bar</h1>
+    
+    <p> < li >< a href="index.html">HTML< /a >< /li ><br>
+        < li >< a href="css.html" > CSS < /a >< /li ><br>
+        < li >< a href="js.html" > JavaScript < /a >< /li ><br>
+        < li >< a href="python.html" > Python < /a >< /li ><br>
+        <p>all the files are in the same directory</p>
+        <button class="nav-link-button">click here to see how i styled the navigation bar</button>
+    </p>
+
+
+    <h1>How i styled the above button</h1>
+    <button  class="nav-link-button">click here to see how i styled the above button</button>
+    <section>
+        <p>
+            .nav-link-button {
+                <br>
+                background-color: #007bff;
+                <br>
+                color: white;
+                <br>
+            }
+        </p>
+    </section>
+
+    <h1>I want to practice setting up a database and a simple log in feature</h1>
+
+    <h2>register first</h2>
+    <form action="POST" onsubmit="register()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Register</button>
+    </form>
+
+    <h2>now log in</h2>
+    <form action="POST" onsubmit="logIn()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">Log In</button>
+    </form>   
+    
+   </main>
+   <footer>
+
+   </footer>
+   <script src="scrpt.js"></script>
+</body>
+</html>
